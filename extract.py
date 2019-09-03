@@ -32,6 +32,9 @@ search_arxiv = search_arxiv_and + " " + search_arxiv_or
 #Directory to save papers in
 dest = str(sys.argv[3])
 dest = dest.replace("'", "")  
+if dest[-1] != "/":
+	dest = dest + "/"
+
 
 #Maximum number of papers to download
 max_len = int(sys.argv[4])
@@ -75,7 +78,7 @@ with open(dest+"result.txt", "a+") as text_file: #creating the txt file that wil
                       dest + "pdf" + str(k) + ".pdf")
             
             #open the convered txt file
-            txtfile = open(dest+"convert.txt", "r")
+            txtfile = open(dest+"convert.txt", encoding='utf-8')
             text = txtfile.read()
             
             #check if there are any non-ASCII characters and remove them
