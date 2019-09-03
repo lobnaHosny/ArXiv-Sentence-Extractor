@@ -5,6 +5,6 @@ setup(
     install_requires=[
         'arxiv',
         'pdfminer.six',
-        
+        'wget',
     ],
 )
