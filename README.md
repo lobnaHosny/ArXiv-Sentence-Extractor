@@ -15,7 +15,7 @@ move the files to <i>htdocs</i>
 <br>
 
 2- Run the following command while inside the folder downloaded from the repo :
-<code>python -m pip install .</code>
+<code>py -m pip install .</code>
 
 
 <h2>Usage as a Script File</h2>
