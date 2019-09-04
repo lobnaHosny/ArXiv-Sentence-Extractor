@@ -1,4 +1,4 @@
-# Sentence-Extractor [![Python 3.6](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+# ArXiv-Sentence-Extractor [![Python 3.6](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
 
 This is a tool to help research students find relevant quotations in research papers automaically. <br><br>
@@ -66,7 +66,7 @@ The above will download <strong>5</strong> papers that have the words <strong>nu
 
 This is quite similar to the script format, except that it comes with a simple GUI.<br><br>
 To use the web application, type `localhost/[put name of directory where files are saved inside htdocs/interface.php` in your web browser. 
-<br><br>It will probably look something like this: `localhost/Sentence-Extractor-master/interface.php`
+<br><br>It will probably look something like this: `localhost/ArXiv-Sentence-Extractor-master/interface.php`
 
 <h2>Output</h2>
 
