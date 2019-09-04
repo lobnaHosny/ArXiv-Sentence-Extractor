@@ -17,7 +17,7 @@ if search_arxiv_and.replace("'", "") == "0":
 else:
     search_arxiv_and = search_arxiv_and.replace("'", "") #removing unnecessary quotes 
     search_arxiv_and = search_arxiv_and.replace(",", "\" AND \"") #adding logic
-	search_arxiv_and = "\"" + search_arxiv_and + "\""
+    search_arxiv_and = "\"" + search_arxiv_and + "\""
 
 
 search_arxiv_or = str(sys.argv[2])  # get user input
@@ -26,7 +26,7 @@ if search_arxiv_or.replace("'", "") == "0":
 else:
     search_arxiv_or = search_arxiv_or.replace("'", "")  # removing unnecessary quotes
     search_arxiv_or = search_arxiv_or.replace(",", "\" OR \"")  # adding logic
-	search_arxiv_or = "\"" + search_arxiv_or + "\""
+    search_arxiv_or = "\"" + search_arxiv_or + "\""
 
 search_arxiv = search_arxiv_and + " " + search_arxiv_or
 
