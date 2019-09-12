@@ -49,7 +49,7 @@ The above will download <strong>3</strong> papers that have the words <strong>ai
 <h3>Ex #2</h3>
 
 ```bash
-py extract.py  "nuclear energy", harms "  "0"   C:/Users/JohnDoe/Desktop/myresults   10   "danger"
+py extract.py  "nuclear energy, harms "  "0"   C:/Users/JohnDoe/Desktop/myresults   10   "danger"
 ```
 The above will download <strong>10</strong> papers that have the words <strong>nuclear energy AND harms</strong>, and will extract the sentences that have the word <strong>danger</strong> from them.
 
